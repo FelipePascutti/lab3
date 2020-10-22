@@ -1,38 +1,166 @@
+body {
+  background-image: linear-gradient(90deg, #6b5c68, white);
+}
+
 .App {
+  justify-content: center;
+  display: flex;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Conteudo {
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-top: 150px;
+}
+.Botoes {
+  display: grid;
+  grid-template-rows: repeat(4, 60px);
+  grid-template-columns: repeat(5, 60px);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#AC {
+  grid-column-start: 5;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  font-size: 15px;
+  background-color: #ffaa64;
+}
+#zer {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  font-size: 15px;
+  background-color: #6c9efe;
+}
+#um {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  font-size: 15px;
+  background-color: #6c9efe;
+}
+#doi {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  font-size: 15px;
+  background-color: #6c9efe;
+}
+#tre {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  font-size: 15px;
+  background-color: #6c9efe;
+}
+#qua {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  font-size: 15px;
+  background-color: #6c9efe;
+}
+#cin {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  font-size: 15px;
+  background-color: #6c9efe;
+}
+#sei {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  font-size: 15px;
+  background-color: #6c9efe;
+}
+#set {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  font-size: 15px;
+  background-color: #6c9efe;
+}
+#oit {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  font-size: 15px;
+  background-color: #6c9efe;
+}
+#nov {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: span 1;
+  font-size: 15px;
+  background-color: #6c9efe;
+}
+#mai {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  font-size: 15px;
+  background-color: #ffaa64;
+}
+#men {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  font-size: 15px;
+  background-color: #ffaa64;
+}
+#mul {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  font-size: 15px;
+  background-color: #ffaa64;
+}
+#div {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  font-size: 15px;
+  background-color: #ffaa64;
+}
+#eq {
+  grid-column-start: 5;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: span 4;
+  font-size: 15px;
+  background-color: #ffaa64;
+}
+#vir {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  font-size: 15px;
+  background-color: #6c9efe;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Display {
+  background-color: #e2e2e2;
+  text-align: right;
+  height: 40px;
+  font-size: 20px;
+  padding-right: 10px;
+  border: 1px #949494 solid;
 }
