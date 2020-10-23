@@ -73,7 +73,7 @@ class App extends Component {
       currentOperand: "",
       previousOperand: "",
       operation:"",
-      memoria:["1","2","","","","","",""],
+      memoria:["","","","","","","",""],
     };
     this.addNumber = this.addNumber.bind(this);
     this.addOperator = this.addOperator.bind(this);
